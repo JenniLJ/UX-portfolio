@@ -1,18 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
   }
   
+  body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
   header {
-    background-color: #333;
+    background-color: #6c9a8b;
     color: #fff;
     padding: 20px;
     text-align: center;
   }
   
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
   nav {
-    background-color: #333;
+    background-color: #6c9a8b;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -36,10 +46,12 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #333;
+    background-color: #6c9a8b;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
   
   nav .menu li {
@@ -58,11 +70,25 @@ body {
   }
   
   section {
-    padding: 20px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #6c9a8b;
+  }
+  
+  section p {
+    margin-top: 20px;
   }
   
   footer {
-    background-color: #333;
+    background-color: #6c9a8b;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -81,8 +107,22 @@ body {
   form textarea {
     width: 100%;
     margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
   form button {
     margin-top: 10px;
+    background-color: #6c9a8b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form button:hover {
+    background-color: #567e71;
   }
