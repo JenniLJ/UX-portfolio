@@ -1,0 +1,28 @@
+{
+  "name": "ux-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenniLJ/UX-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "design",
+    "UX"
+  ],
+  "author": "Jenni Jarrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenniLJ/UX-portfolio/issues"
+  },
+  "homepage": "https://github.com/JenniLJ/UX-portfolio#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
