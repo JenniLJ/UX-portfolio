@@ -51,4 +51,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Credits:
 
-This template was inspired by various UX portfolio websites and was created by Your Name.
+This template was inspired by various UX portfolio websites and was created by Jenni.
