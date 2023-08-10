@@ -13,7 +13,8 @@ body, h1, h2, h3, p {
   header {
     background-color: #6c9a8b;
     color: #fff;
-    padding: 20px;
+    padding: 50px;
+    padding-bottom: 0px;
     text-align: center;
   }
   
@@ -75,6 +76,10 @@ body, h1, h2, h3, p {
     padding: 5px;
   }
   
+  nav .menu-toggle{
+    
+  }
+
   nav .menu-toggle:checked ~ .menu {
     right: 0; /* Show the menu by moving it to the right side */
   }
