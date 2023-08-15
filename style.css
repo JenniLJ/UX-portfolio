@@ -142,9 +142,15 @@ body, h1, h2, h3, p {
     background-color: #567e71;
   }
 
-  #userCases {
+#userCases {
   background-color: #f7f7f7;
   padding: 40px 0;
+}
+
+.user-case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 
 .user-case {
