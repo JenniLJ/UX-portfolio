@@ -75,10 +75,6 @@ body, h1, h2, h3, p {
     text-decoration: none;
     padding: 5px;
   }
-  
-  nav .menu-toggle{
-    
-  }
 
   nav .menu-toggle:checked ~ .menu {
     right: 0; /* Show the menu by moving it to the right side */
@@ -145,3 +141,63 @@ body, h1, h2, h3, p {
   form button:hover {
     background-color: #567e71;
   }
+
+  #userCases {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.user-case {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-case h3 {
+  font-size: 1.5rem;
+  color: #6c9a8b;
+}
+
+.user-case p {
+  margin-top: 10px;
+}
+
+.user-case a {
+  display: block;
+  margin-top: 15px;
+  color: #6c9a8b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#userCases {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.user-case {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-case h3 {
+  font-size: 1.5rem;
+  color: #6c9a8b;
+}
+
+.user-case p {
+  margin-top: 10px;
+}
+
+.user-case a {
+  display: block;
+  margin-top: 15px;
+  color: #6c9a8b;
+  text-decoration: none;
+  font-weight: bold;
+}
