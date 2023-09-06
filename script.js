@@ -3,6 +3,8 @@
 const menuToggle = document.getElementById("menu-toggle");
 const closeBtn = document.querySelector(".close-btn");
 const menuOpen = document.querySelector(".menu");
+const contactButton = document.getElementById("contactButton");
+const bottomElement = document.getElementById("contact");
 
 menuToggle.addEventListener("change", function () {
   if (this.checked) {
@@ -12,4 +14,8 @@ menuToggle.addEventListener("change", function () {
     menuOpen.style.right = "-200px";
     closeBtn.style.display = "none"; // Hide the close button when menu is collapsed
   }
+});
+
+contactButton.addEventListener("click", () => {
+  bottomElement.scrollIntoView({ behavior: "smooth" });
 });

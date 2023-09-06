@@ -10,18 +10,105 @@ body, h1, h2, h3, p {
     color: #333;
   }
   
-  header {
-    background-color: #6c9a8b;
-    color: #fff;
-    padding: 50px;
-    padding-bottom: 0px;
-    text-align: center;
-  }
+    /* Typography */
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #6c9a8b;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-top: 10px;
+      color: #666;
+    }
+
+    a {
+      color: #6c9a8b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background-image: url('b89cce54-30bb-4f60-a821-b3a6b3f66b64copy.jpg'); /* Replace with your image path */
+      background-color: rgba(108, 154, 139, 0.5); /* Set your desired background color with opacity */
+      background-blend-mode: overlay; /* Apply blend mode to the background */
+      background-size: cover; /* Adjust the background size as needed */
+      background-position: center; /* Center the background image */    
+      background-color: #6c9a8b;
+      color: #fff;
+      padding: 10px;
+      padding-bottom: 0px;
+      text-align: center;
+      height: 100vh; /* Set the header height to 100% of the viewport height */
+      margin-bottom: 50px; /* Compensate for the negative margin on body */
+    }
+
+    header p {
+      color: #fff;
+      margin: 30px;
+      margin-top: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 20px;
+    }
   
-  header h1 {
-    font-size: 2.5rem;
-  }
-  
+    header h3 {
+      margin:30px;
+    }
+
+    header button {
+      margin-top: 20px;
+      background-color: #6c9a8b;
+      color: #fff;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 9px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    header button:hover {
+      background-color: #567e71;
+    }
+
+    .header-grid {
+      background-color: #97c2b4;
+      opacity: 90%;
+      height: 65vh;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 80px;
+      margin: 50px 300px;
+    }
 
   nav {
     background-color: #6c9a8b;
@@ -48,7 +135,7 @@ body, h1, h2, h3, p {
     position: fixed;
     top: 0; 
     right: -200px; /* Initially hide the menu on the right side */  
-    background-color: #6c9a8b;
+    background-color: #97c2b4;
     opacity: 1; /* Set to 1 so that the menu is visible when toggled */
     pointer-events: auto; /* Enable interaction when toggled */
     transition: right 0.3s ease-in-out; /* Transition the right property */
@@ -67,7 +154,7 @@ body, h1, h2, h3, p {
   }
 
   nav .menu li {
-    margin-bottom: 10px;
+    margin: 20px;
   }
   
   nav .menu a {
@@ -144,43 +231,12 @@ body, h1, h2, h3, p {
 
 #userCases {
   background-color: #f7f7f7;
-  padding: 40px 0;
 }
 
 .user-case-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-}
-
-.user-case {
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.user-case h3 {
-  font-size: 1.5rem;
-  color: #6c9a8b;
-}
-
-.user-case p {
-  margin-top: 10px;
-}
-
-.user-case a {
-  display: block;
-  margin-top: 15px;
-  color: #6c9a8b;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#userCases {
-  background-color: #f7f7f7;
-  padding: 40px 0;
 }
 
 .user-case {
